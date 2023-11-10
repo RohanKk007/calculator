@@ -1,3 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(45deg, black, rgb(90, 89, 89));
+    align-items: center;
+    justify-content: center;
+}
+
+
 .container{
     display: flex;
     flex-direction: column;
@@ -5,29 +20,39 @@
     justify-content: center;
     margin: auto;
     padding: 20px;
-    background-color: aquamarine;
+    background: transparent;
     width: fit-content;
     border-radius: 10px;
-    border: 2px solid black;
-    box-shadow: 0px 0px 3px 3px black;
+    border: 1px solid white;
+    box-shadow: 0px 3px 20px white;
 }
 .screen{
+    font-size: 25px;
+    color: white;
     width: 11rem;
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 4px;
+    background: transparent;
+    padding: 6px;
+    border: none;
+    margin: 7px
 }
 .btn{
+    background: transparent;
+    color: white;
     height: 34px;
     width: 36px;
     margin: 3px;
-    border: 1px solid black;
     border-radius: 5px;
+    font-weight: bold;
 }
 .btn:hover{
     color: white;
     background-color: darkgrey;
+    transition: 0.2s;
 }
 .btnmain{
     width: 3.5cm;
+    color: lime;
+}
+.C{
+    color: pink;
 }
